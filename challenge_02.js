@@ -16,3 +16,35 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+
+Name = prompt("Bitte Namen eingeben");
+Age = prompt("Bitte Alter eingeben");
+
+let isKleinK, isKind, isJugend, isAdult;
+
+isKleinK = (Age > 0);
+isKleinK = (Age < 6);
+isKind = (Age == 6);
+isKind = (Age > 13);
+isJugend = (Age == 13);
+isJugend = (Age > 18);
+isAdult = (Age == 18);
+isAdult = (Age > 18);
+
+if (isKleinK)
+{
+    console.log(Name +":" + "  " + "Milch");
+}
+
+if (isKind)
+{
+console.log("MilchSaft");
+}
+if (isJugend)
+{
+console.log("Cola");
+}
+if (isAdult)
+{
+console.log(Name: + "Wein");
+}
