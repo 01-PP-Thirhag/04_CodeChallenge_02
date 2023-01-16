@@ -35,16 +35,15 @@ if (isKleinK)
 {
     console.log(Name +":" + "  " + "Milch");
 }
-
 if (isKind)
 {
-console.log("MilchSaft");
+console.log(Name +":" + "  " +"Saft");
 }
 if (isJugend)
 {
-console.log("Cola");
+console.log(Name +":" + "  " +"Cola");
 }
-if (isAdult)
+else (isAdult)
 {
-console.log(Name: + "Wein");
+console.log(Name +":" + "  " + "Wein");
 }
