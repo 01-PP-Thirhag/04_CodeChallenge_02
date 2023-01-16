@@ -22,28 +22,25 @@ Age = prompt("Bitte Alter eingeben");
 
 let isKleinK, isKind, isJugend, isAdult;
 
-isKleinK = (Age > 0);
-isKleinK = (Age < 6);
-isKind = (Age == 6);
-isKind = (Age > 13);
-isJugend = (Age == 13);
-isJugend = (Age > 18);
-isAdult = (Age == 18);
-isAdult = (Age > 18);
+isKleinK = (Age > 0 + Age < 6);
+isKind = (Age == 6 + Age > 13);
+isJugend = (Age == 13 + Age < 18);
+isAdult = (Age == 18 + Age > 18);
 
+if (true);
 if (isKleinK)
 {
-    console.log(Name +":" + "  " + "Milch");
+    console.log(Name +":"+" "+ "trinkt Milch")
 }
-if (isKind)
+if (isKind) 
 {
-console.log(Name +":" + "  " +"Saft");
+console.log(Name +":"+" "+ "trinkt Saft")    
 }
-if (isJugend)
+if (isJugend) 
 {
-console.log(Name +":" + "  " +"Cola");
+console.log(Name +":"+" "+ "trinkt Cola")    
 }
-else (isAdult)
+if (isAdult)
 {
-console.log(Name +":" + "  " + "Wein");
+console.log(Name +":"+" "+ "trinkt Wein")    
 }
