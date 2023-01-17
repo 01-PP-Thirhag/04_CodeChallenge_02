@@ -21,20 +21,35 @@ let Name, Age;
 Name = prompt("Bitte Namen eingeben");
 Age = prompt("Bitte Alter eingeben");
 
-if (Age == 0 + Age < 6)
+else if (Age = 0)
 {
     console.log (Name + ":" + " " + "trinkt Milch" );
 }
-else if (Age == 6 + Age > 13)
+else if (Age < 6)
+{
+    console.log (Name + ":" + " " + "trinkt Milch" );
+}
+else if (Age = 6)
 {
     console.log (Name + ":" + " " + "trinkt Saft" );
 }
-else if (Age == 13 + Age < 17)
+else if (Age < 13)
 {
-    console.log (Name + ":" + " " + "trinkt Cola" );
+    console.log (Name + ":" + " " + "trinkt Saft" );
 }
-
-else if (Age == 18 + Age > 18)
+else if (Age = 13)
+{
+    console.log (Name + ":" + " " + "trinkt Cola");
+}
+else if (Age  < 18)
+{
+    console.log (Name + ":" + " " + "trinkt Cola");
+}
+else if (Age = 18)
+{
+    console.log (Name + ":" + " " + "trinkt Wein" );
+}
+else if (Age > 18)
 {
     console.log (Name + ":" + " " + "trinkt Wein" );
 }
