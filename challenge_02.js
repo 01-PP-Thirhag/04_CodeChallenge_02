@@ -15,7 +15,7 @@ Alter 13-17 // Cola
 -->zB: "Max trinkt Cola."
 
 /* Getränke-Challenge */
-let namen, alter;
+let Name, Age;
 
 Name = prompt("Bitte einen Namen eingeben");
 Age = prompt("Bitte ein Alter eingeben"); 
@@ -23,7 +23,7 @@ Age = prompt("Bitte ein Alter eingeben");
 
 if (Age > 0 && Age < 6)
 {
-console.log(namen + " " + "trinkt Milch");
+console.log(Name + " " + "trinkt Milch");
 }
 else if (Age >= 6 && Age <= 12) 
 {
